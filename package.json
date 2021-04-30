@@ -1,0 +1,26 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "A KickStarter like DApp using Ethereum and Solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salman-ar-sar/kickstart.git"
+  },
+  "author": "Salman A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salman-ar-sar/kickstart/issues"
+  },
+  "homepage": "https://github.com/salman-ar-sar/kickstart#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.3.2",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.26"
+  }
+}
