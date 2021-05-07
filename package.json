@@ -9,7 +9,7 @@
     "start": "NODE_ENV=production node server.js",
     "build": "next build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d next build"
   },
   "repository": {
     "type": "git",
